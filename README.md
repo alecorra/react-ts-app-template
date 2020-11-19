@@ -1,6 +1,6 @@
 # React-Ts app template
 
-Template to build apps using React TypeScript Sass Jest ESlint Prettier.
+Template to build apps using Create-React-App TypeScript Sass Jest ESlint Prettier.
 
 ## Getting Started
 
@@ -10,9 +10,7 @@ Remember to delete the existing README.md file and rename and update the README-
 
 Please check the .eslintrc.json and .prettierrc.json files and update the rules with your favourite flavours.
 
-This template comes with a .env.example file. Rename it as .env to use it (no worries, it's already in .gitignore!).
-
-If you want to know how to use environment variables click here: https://medium.com/@adostes/using-environment-variables-in-a-react-application-ac3b6c307373
+If you want to know how to use environment variables click here: https://create-react-app.dev/docs/adding-custom-environment-variables/#adding-development-environment-variables-in-env.
 
 ### Prerequisites
 
@@ -58,9 +56,12 @@ npm run test
 
 Please consider that Jest is intended to be used for unit tests of your logic and your components rather than the DOM quirks.
 
+If you want to know how to customize Jest coverage click here: https://create-react-app.dev/docs/running-tests#configuration
+
 ## Built With
 
 * [React](https://reactjs.org/) - The web framework used
+* [Create-React-App](https://create-react-app.dev/) - The React bootstrap used
 * [Npm](https://www.npmjs.com/) - Package manager
 * [Typescript](https://www.typescriptlang.org/) - Programming language
 * [ESlint](https://eslint.org/) - JS and TS linter
