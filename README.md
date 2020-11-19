@@ -8,7 +8,7 @@ These instructions will get you a copy of the template.
 
 Remember to delete the existing README.md file and rename and update the README-template.md file.
 
-Please check the .eslintrc.json and .prettierrc.json files and update the rules with your favourite flavours.
+Please check the .eslintrc and .prettierrc files and update the rules with your favourite flavours.
 
 If you want to know how to use environment variables click here: https://create-react-app.dev/docs/adding-custom-environment-variables/#adding-development-environment-variables-in-env.
 
