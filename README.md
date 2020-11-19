@@ -1,6 +1,6 @@
 # React-Ts app template
 
-Template to build apps using Create-React-App TypeScript Sass Jest ESlint Prettier.
+Template to build apps using React TypeScript Sass Jest ESlint Prettier.
 
 ## Getting Started
 
