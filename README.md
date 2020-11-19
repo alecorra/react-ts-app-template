@@ -1,46 +1,80 @@
-# Getting Started with Create React App
+# React-Ts app template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Template to build apps using React TypeScript Sass Jest ESlint Prettier.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+These instructions will get you a copy of the template.
 
-### `yarn start`
+Remember to delete the existing README.md file and rename and update the README-template.md file.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Please check the .eslintrc.json and .prettierrc.json files and update the rules with your favourite flavours.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This template comes with a .env.example file. Rename it as .env to use it (no worries, it's already in .gitignore!).
 
-### `yarn test`
+If you want to know how to use environment variables click here: https://medium.com/@adostes/using-environment-variables-in-a-react-application-ac3b6c307373
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `yarn build`
+Use this repo as template, click on:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+Use this template
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+or
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+Code
+```
 
-### `yarn eject`
+### Installing
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Intall all the dependencies:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm i
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Then start the app template
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+npm start
+```
 
-## Learn More
+At this point you should see in the browser the React App template.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Now you have just to start building your app.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Running the tests
+
+This template comes with Jest framework pre-intalled.
+
+To run the tests:
+
+```
+npm run test
+```
+
+Please consider that Jest is intended to be used for unit tests of your logic and your components rather than the DOM quirks.
+
+## Built With
+
+* [React](https://reactjs.org/) - The web framework used
+* [Npm](https://www.npmjs.com/) - Package manager
+* [Typescript](https://www.typescriptlang.org/) - Programming language
+* [ESlint](https://eslint.org/) - JS and TS linter
+* [Prettier](https://prettier.io/) - Code formatter
+* [Jest](https://jestjs.io/) - Testing framework
+
+## Authors
+
+* **Alessandro Corra** - *Template final version* - [alecorra](https://github.com/alecorra)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* **Billie Thompson** - *README template* - [PurpleBooth](https://github.com/PurpleBooth)
